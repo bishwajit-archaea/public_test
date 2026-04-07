@@ -6,3 +6,4 @@ def __init__(self, client=None, model: str = None):
         self.client = client 
         self.model = model
 xy=10
+xi=02
