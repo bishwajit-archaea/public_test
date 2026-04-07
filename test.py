@@ -7,3 +7,4 @@ def __init__(self, client=None, model: str = None):
         self.model = model
 xy=10
 xi=02
+sua=90
