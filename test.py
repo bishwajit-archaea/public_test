@@ -5,3 +5,4 @@ def __init__(self, client=None, model: str = None):
         # Use llm_service client and model if not provided
         self.client = client 
         self.model = model
+xy=10
