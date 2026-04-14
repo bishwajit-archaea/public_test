@@ -2,7 +2,7 @@ from app.services.llm.utils import retry_and_log_llm_usage
 from typing import Tuple, Any
 
 @retry_and_log_llm_usage(max_retries=3, retry_delay=1.0, backoff_factor=2.0)
-def detect_query_type(query: str) -> Tuple[Any, str]:
+def detect_query_type_update(query: str) -> Tuple[Any, str]:
     """
     Use LLM to detect what type of search is needed.
     
