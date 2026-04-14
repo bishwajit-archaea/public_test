@@ -73,7 +73,7 @@ class EnhancedSearchAgent:
     
     
     
-    async def _security_search(self, query: str,query_type: str,max_results: int = 10) -> Dict[str, Any]:
+    async def _security_search_bishwajit(self, query: str,query_type: str,max_results: int = 10) -> Dict[str, Any]:
         """
         Perform security-focused search.
         """
