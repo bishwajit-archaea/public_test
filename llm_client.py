@@ -6,3 +6,6 @@ openai_client= OpenAI(api_key=settings.OPENAI_API_KEY)
 
 def get_grok_client():
     return grok_openai_client
+
+def get_grok_clientaa():
+    return grok_openai_client
