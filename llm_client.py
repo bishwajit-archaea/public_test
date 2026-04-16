@@ -12,3 +12,6 @@ def get_grok_clientaa():
 
 def get_grok_clientaa_bishwajit():
     return grok_openai_client
+
+def get_grok_clientaa_bishwajit_garai():
+    return grok_openai_client
