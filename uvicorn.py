@@ -15,6 +15,8 @@ app = FastAPI(
 )
 def bishwajit():
     return 5
+def bishwajitg():
+    return 6
 # --- 2. DATA MODELS (Pydantic) ---
 class Task(BaseModel):
     id: UUID = Field(default_factory=uuid4)
