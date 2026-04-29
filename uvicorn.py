@@ -85,3 +85,4 @@ async def slow_async():
 @app.get("/logs", tags=["Admin"])
 def get_logs():
     return {"logs": db["logs"]}
+    #test
