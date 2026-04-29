@@ -13,7 +13,8 @@ app = FastAPI(
     description="A high-performance API featuring Async, Pydantic, and DI.",
     version="2.0.0"
 )
-
+def bishwajit():
+    return 5
 # --- 2. DATA MODELS (Pydantic) ---
 class Task(BaseModel):
     id: UUID = Field(default_factory=uuid4)
