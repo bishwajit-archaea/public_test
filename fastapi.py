@@ -26,7 +26,6 @@ from pydantic import BaseModel
 #commend add
 # Initialize the app
 app = FastAPI()
-X=134
 # Optional: Define a data model for POST requests
 class Item(BaseModel):
     name: str
