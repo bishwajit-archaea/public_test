@@ -31,7 +31,7 @@ class Item(BaseModel):
     name: str
     price: float
     is_offer: Optional[bool] = None
-
+#ok
 @app.get("/")
 def read_root():
     return {"message": "Hello, FastAPI!"}
