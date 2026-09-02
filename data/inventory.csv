@@ -1,0 +1,5 @@
+sku,warehouse,on_hand,reorder_at
+A-100,seattle,240,50
+A-100,austin,85,50
+B-220,seattle,12,40
+B-220,austin,310,40
