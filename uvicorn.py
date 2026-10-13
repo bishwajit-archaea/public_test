@@ -28,6 +28,7 @@ class Task(BaseModel):
 class User(BaseModel):
     username: str
     email: EmailStr
+    full_name: str = ""
 
 # --- 3. IN-MEMORY DATABASE ---
 db = {
