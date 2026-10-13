@@ -47,10 +47,7 @@ async def get_active_user(api_key: str = Query(...)):
     return {"user": "Admin", "role": "Superuser"}
 
 # --- 5. BACKGROUND TASKS ---
-def write_log(message: str):
-    # Simulates a slow IO operation (like writing to a file or sending email)
-    time.sleep(2) 
-    db["logs"].append(f"LOG [{datetime.now()}]: {message}")
+from helpers import write_log  # moved to helpers.py
 
 # --- 6. ROUTES ---
 
