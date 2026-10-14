@@ -13,3 +13,8 @@ def seats_over_allowance(seats_used: int, seats_included: int) -> int:
     """How many seats are billed as overage."""
     extra = seats_used - seats_included
     return extra if extra > 0 else 0
+
+
+def annual_discount(monthly_price: float) -> float:
+    """Two months free on an annual plan."""
+    return round(monthly_price * 10, 2)
