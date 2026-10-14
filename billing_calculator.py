@@ -11,4 +11,5 @@ def compute_prorated_charge(monthly_price: float, days_used: int,
 
 def seats_over_allowance(seats_used: int, seats_included: int) -> int:
     """How many seats are billed as overage."""
-    return max(0, seats_used - seats_included)
+    extra = seats_used - seats_included
+    return extra if extra > 0 else 0
