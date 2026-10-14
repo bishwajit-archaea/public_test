@@ -3,6 +3,7 @@ import time
 from datetime import datetime
 
 db = {"tasks": [], "logs": []}
+LOG_DELAY_SECONDS = 2  # how long write_log waits
 
 
 def write_log(message: str):
